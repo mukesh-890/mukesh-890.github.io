@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Write CSS code below */
+body{
+    background-color: #a6abad;
+}
+  
+.main-content {
+    margin: 20px auto;
+    min-height: 1000px;
+    width: 90%;
+    display: grid;
+    grid-template-columns:300px 700px;
+}
+.left-section {
+    grid-column: span 1;
+    /* background-color: turquoise; */
+    background-color: teal;
+    /* background-color: #242531; */
+     
+}
+
+.left-section {
+    padding: 1rem;
+}
+.left-content {
+    padding: 1rem;
+
+}
+.profile-image {
+    display: block;
+    margin: auto;
+    border: 5px;
+    border-radius: 30%;
+    width: 60%;
+}
+.name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.8rem;
+    white-space: 0.02px;
+}
+.designation {
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: o.5rem;
+    
+}
+.description {
+    font-size: 00.75rem;
+    text-align: center;
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+}
+.contact-item {
+    padding: 1rem;
+}
+.social-media{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.personal-details{
+
+    font-size: 00.75rem;
+    text-align: left;
+    padding: 0.5rem;
+    
+}
+.icon {
+    padding: 0.5rem;
+}
+.skills {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.skill-name {
+    font-size: 00.65rem;
+    font-weight: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
+
+ .skill-item{
+     padding: 00.5rem;
+ }
+ .progress-bar{
+     border: 1px solid #fff;
+     height: 4px;
+     background-color: #f5f5f5;
+     
+  
+ }
+ /* .skill-progress {
+    padding: 0.5rem;
+ } */
+ .right-section {
+    grid-column: span 1 / span 2;
+    background-color:rgb(34, 212, 198);
+    /* background-color: #242531; */
+}
+.right-main-content {
+    padding: 2rem 3rem;
+}
+.para {
+    color :black;
+}
+.right-titel{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+
+@media screen and (min-width: 0px)and (max-width: 673px) {
+    .main-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
